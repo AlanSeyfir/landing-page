@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(img/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;   
+    justify-content: space-between;
+    align-items: center; 
+}
+
+/*Make the img smaller*/
+nav img{
+    width: 150px;
+}
+
+.nav__links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav__links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em 1.33em;
+    position: relative;
+}
+
+.nav__links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/*Effect of active and hover in anchors*/
+.nav__links ul li::after{
+    content: '';
+    /*With 0% the pseudoelement is HIDDEN*/
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav__links ul li:hover::after{
+    width: 100%;
+}
