@@ -248,6 +248,49 @@ img{
     text-align: center;
 }
 
+/*---------------------STUDENTS SAY-----------------------*/
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 6.25em;
+    text-align: center;
+}
+
+.testimonial__col{
+    flex-basis: 44%;
+    border-radius: .625em;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 1.5625em;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial__col img{
+    height: 2.5em;
+    margin-left: 0.3125em;
+    margin-right: 1.875em;
+    border-radius: 50%;
+}
+
+.testimonial__col p{
+    padding: 0;
+}
+
+.testimonial__col h3{
+    margin-top: 0.9375em;
+    margin-left: 0;
+    text-align: left;
+}
+
+.testimonial__col .fas, .far{
+    color: rgb(247, 72, 72);
+}
+
+/*---------------------CALL TO ACTION-----------------------*/
+
 @media(max-width: 700px){
     .text__box h1{
         font-size: 1.25em;
@@ -284,5 +327,10 @@ img{
 
     .row{
         flex-direction: column;
+    }
+
+    .testimonial__col img{
+        margin-left: 0;
+        margin-right: .9375em;
     }
 }
