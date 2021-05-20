@@ -215,6 +215,39 @@ h3{
     opacity: 1;
 }
 
+/*---------------------FACILITIES-----------------------*/
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 6.25em;
+}
+
+img{
+    max-width: 100%;
+}
+
+.facilities__col{
+    /*It seems like margin or padding but using flex properties*/
+    flex-basis: 31%;
+    border-radius: 0.625em;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities__col img{
+    border-radius: .625em;
+}
+
+.facilities__col p{
+    padding: 0;
+}
+
+.facilities__col h3{
+    text-align: center;
+}
+
 @media(max-width: 700px){
     .text__box h1{
         font-size: 1.25em;
