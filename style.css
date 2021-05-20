@@ -435,4 +435,13 @@ img{
     .cta h2{
         font-size: 1.5em;
     }
+
+    .about__us h2, a{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about__us a{
+        margin: 0 34%;
+    }
 }
