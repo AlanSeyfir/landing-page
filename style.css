@@ -340,6 +340,50 @@ img{
     color: #e9d0ce;
 }
 
+/*---------------------ABOUT US PAGE-----------------------*/
+.sub__header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(img/background.jpg);
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.sub__header h2{
+    margin-top: 2.25em;
+}
+
+.about__us{
+    width: 80%;
+    margin: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.about__col{
+    flex-basis: 48%;
+    padding: 1.875em .125em;
+}
+
+.about__col h2{
+    padding-top: 0;
+}
+
+.about__col p{
+    padding: .9375em 0 1.5625em;
+}
+
+.red__btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+
+.red__btn:hover{
+    color: white;
+}
+
 @media(max-width: 700px){
 
     body{
