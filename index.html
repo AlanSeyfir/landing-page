@@ -11,7 +11,8 @@
     <section class="header">
       <nav>
         <a href="index.html"><img src="img/logo.png" alt="eduford logo"></a>
-        <div class="nav__links">
+        <div class="nav__links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
@@ -19,7 +20,9 @@
             <li><a href="#">BLOG</a></li>
             <li><a href="#">CONTACT</a></li>
           </ul>
+          
         </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
       </nav>
 
       <div class="text__box">
@@ -29,5 +32,8 @@
         <a href="" class="hero__btn">Visit us to know more!</a>
       </div>
     </section>
+
+    <script src="https://kit.fontawesome.com/6be8939cc9.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
   </body>
 </html>
