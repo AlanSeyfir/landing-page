@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zapgire University</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
   </head>
   <body>
     <!-- -------------------HERO------------------- -->
@@ -26,25 +27,47 @@
         <i class="fas fa-bars" onclick="showMenu()"></i>
       </nav>
 
-      <h2>About Us</h2>
+      <h2>Contact Us</h2>
     </section>
 
-    <!-- -------------------CONTENT------------------- -->
+    <!-- ---------------------------------CONTACT INFO--------------------------------- -->
 
-    <section class="about__us">
-      <div class="row">
-        <div class="about__col">
-          <h2>Largest University in Lorem</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa omnis officiis labore optio amet perspiciatis illo numquam, nisi ipsum consequuntur consequatur a cupiditate. Qui, ullam ipsum fuga aspernatur temporibus saepe?a cupiditate. Qui, ullam ipsum fuga aspernatur temporibus saepe?</p>
-          
-          <a href="" class="hero__btn red__btn">Explore Now</a>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Bangalore, Karnataka, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+52 8146716223</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>test@outlook.com</h5>
+                        <p>Email us to send</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="contact">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea name="textarea" id="textarea" rows="8" required></textarea>                    
+                    <button type="submit" class="hero__btn red__btn">Send Message</button>
+                </form>
+            </div>
         </div>
-        <div class="about__col">
-          <img src="img/about.jpg" alt="few people in a meeting">
-        </div>
-      </div>
     </section>
-
 
     <!-- -------------------FOOTER------------------- -->
     <footer class="footer">
