@@ -1,3 +1,7 @@
+const getElements = () => {
+    return number;
+}
+
 let navLinks = document.getElementById('navLinks');
 
 function showMenu(){
